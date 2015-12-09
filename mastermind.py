@@ -19,7 +19,22 @@ guess=list(user)
 #while loop to compare code and user input
 #allow 10 tries
 while c<10:
-	
+	for w in a:
+		if guess[w] == a[w]:
+			print "X"
+		else 
+			b=w+1
+			while b<4
+				if guess[b]== a[b]:
+					print "O"
+				b=b+1
+	if guess==a:
+		print "You Win"
+		c=10
+	c=c+1
+	print "Guess Again"
+	user= input("Enter your guess:")
+	guess=list(user)
 
-#at 10 tries reset the code and counter and start the game over
-#give option to end the game
+
+#at 10 tries reset the code and counter and the game ends
