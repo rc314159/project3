@@ -9,7 +9,7 @@
 #First guess: q w e r So then the code maker would indicate the following: X O 
 #Second guess: w e r t So then the code maker would indicate the following: O O
 
-#In this example, I've chosen to use X to indicate that a correct symbol was placed in the right place, that was the # for the first guess. Then the O is indicating that a correct symbol was chosen but it was not in the correct place, that was the & in the first guess.
+#In this example X indicates that a correct symbol was placed in the right place, that was the # for the first guess. Then the O indicates that a correct symbol was chosen but it was not in the correct place, that was the r in the first guess.
 
 #For the second guess since the w was removed, we lost the X but now the t has been guessed but both it and the r are in the wrong locations so two O's have been shown.
 
@@ -17,4 +17,5 @@
 
 #The game ends when either 10 turns are up or when the code breaker guesses the code.
 
-#You aren't required to use X and O but some symbols should be be chosen and there should be a key or a help that indicates what they mean.
+#Repeated inputs will result in more than one match ie: if the code is qwer and the user inputs wwww
+#the output will be OXOO

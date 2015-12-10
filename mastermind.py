@@ -5,6 +5,7 @@
 a=[]
 i= [1,2,3,4]
 c=0
+u=[]
 import random 
 #create list of 4 random letters from qwerty
 for i in range(0,4):
@@ -25,18 +26,9 @@ while c<10:
             print ("X")
             continue
         else:
-            b=w+1
-            q=w-1
-            while b<4:
-                if guess[b]== a[b]:
-                    print ("O")
-                    break
-                b=b+1
-            while q>0:
-                if guess[q]== a[q]:
-                    print ("O")
-                    break
-                q=q-1
+            if guess[w]in a:
+                print("O")
+                continue
     if guess==a:
         print ("You Win")
         break
