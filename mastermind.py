@@ -10,7 +10,6 @@ import random
 #create list of 4 random letters from qwerty
 for i in range(0,4):
     a.append(random.choice('qwerty'))
-print (a)
 	
 #enter inputs
 print ("Welcome to Mastermind")
