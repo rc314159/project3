@@ -19,3 +19,4 @@
 
 #Repeated inputs will result in more than one match ie: if the code is qwer and the user inputs wwww
 #the output will be OXOO
+#The code can be run by using the command line with the command python mastermind.py when the file is in the correct pathway
