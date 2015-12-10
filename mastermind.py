@@ -2,10 +2,10 @@
 #Mastermind
 
 #create randomized code
+#holds the random code
 a=[]
-i= [1,2,3,4]
+#loop counter
 c=0
-u=[]
 import random 
 #create list of 4 random letters from qwerty
 for i in range(0,4):
@@ -22,13 +22,16 @@ guess=list(user)
 #allow 10 tries
 while c<10:
     for w in range(0,4):
+        #print correct position
         if guess[w] == a[w]:
             print ("X")
             continue
         else:
+            #print correct guess
             if guess[w]in a:
                 print("O")
                 continue
+    #determine win
     if guess==a:
         print ("You Win")
         break
